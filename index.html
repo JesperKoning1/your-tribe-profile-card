@@ -1,59 +1,52 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="nl">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FDND Visitekaartje</title>
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-    
-    <article>
-      
-      <header>
-        
-        <h1>Jane Doe</h1>
-        
-        <p class="slogan"><em>Creatieve Frontend Developer in spé</em></p>
-        
-        <button>
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <title>Wijzig layout</title>
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M4 8v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M4 16v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M16 4h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M16 20h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M15 19v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M15 5v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M5 15h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M5 9h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-        </button>
-        
-      </header>
-  
-      <img src="assets/creative-coder.png" alt="" width="800" height="800">
+    <link rel="stylesheet" href="style.css">
+    <title>Visitekaartje Jesper</title>
+</head>
+<body>
+<div class="card">
+    <div class="bar top">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="4" width="20" height="13" rx="1.5" stroke="#ffffff" stroke-width="1.6"/>
+        <path d="M8 21h8M12 17v4" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+      Webdeveloper · Webdesigner
+    </div>
+<div class="boventekst">
+  <h1>Jesper Koning</h1>
+</div>
+<div class="midden-tekst">
+   <p>Eerstejaars FDND aan de HvA</p>
+</div>
 
-      <dl>
-        <dt>HTML</dt>
-        <dd>🏆🏆🏆</dd>
-        
-        <dt>CSS</dt>
-        <dd>🏆🏆</dd>
-        
-        <dt>JavaScript</dt>
-        <dd>🏆🏆🏆🏆</dd>
-      </dl>
-  
-      <p>Het WEB is te gek! <br> Met HTML, CSS en JS kan ik vette, interactieve web apps maken.</p>
-      
-    </article>
+<div class="middle-card">
+  <div class="label">Favoriete Artiesten</div>
+    <span>Ye</span>
+    <span>A$AP Rocky</span>
+    <span>Playboi Carti</span>
+  </div>
 
-    <script src="scripts/script.js"></script>
-    
-  </body>
+<div class="artist-img">
+  <div class="asaprocky-img">
+    <img src="media/asaprocky.JPG" alt="A$AP Rocky Live At Ziggo Dome 2026">
+    </div>
+  <div class="ye-img">
+    <img src="media/ye.jpg" alt="Ye Live At Gelredome 2026">
+  </div>
+  <div class="carti-img">
+    <img src="media/playboicarti.jpg" alt="Playboi Carti Live At Beach Please 2026">
+  </div>
+</div>
+<div class="bar bottom">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="5" width="20" height="14" rx="1.5" stroke="#ffffff" stroke-width="1.6"/>
+  <path d="M22 6l-10 7L2 6" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+      <a href="mailto:jesper.koning@hva.nl">jesper.koning@hva.nl</a>
+    </div>
+    </div>
+
+</body>
 </html>
